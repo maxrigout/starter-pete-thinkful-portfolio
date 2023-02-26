@@ -76,3 +76,29 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+/* used to make a container flex */
+.flex-container{
+  display: flex;
+}
+
+/* vertically center */
+.align-vertical-center{
+  align-items: center;
+}
+
+/* used by the containers within a flex-container */
+.flex-item{
+  flex: 1;
+  margin: 10px;
+}
+
+/* used to align the text to the left */
+.align-left{
+  text-align: left;
+}
+
+/* used to apply a specific style to a project description */
+.project-description{
+  font-size: 14px;
+}
